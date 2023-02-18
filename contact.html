@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6dabbfe48e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NavBar-->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="#" id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        <div class="cart-details">
+            <div class="cart-title">
+                <h4>Your Cart</h4>
+            </div>
+            <div class="card-content">
+                <div class="cart-box">
+                    <img src="img/products/f2.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-prod-title">
+                            Men's Blue Peace Oversized T-shirt
+                        </div>
+                        <div class="cart-price">
+                            Rs. 599
+                        </div>
+                        <input type="number" value="1" class="cart-quantity" min="0">
+                    </div>
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    <p>Total: </p>
+                </div>
+                <div class="total-price">
+                    <p>Rs. 0</p>
+                </div>
+            </div>
+            <button class="normal btn-buy">Buy Now</button>
+            <i id="close-cart" class="fas fa-times"></i>
+
+        </div>
+    </section>
+
+    <!-- Contact Details -->
+    <div class="contact-details section-p1">
+        <div class="details">
+            <span>
+                GET IN TOUCH
+            </span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-regular fa-map"></i>
+                    <p>Next to L&T Flyover, Andheri (East) Mumbai, Maharashtra</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>cara07@yahoo.in</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>+91 969669xxxx</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>11:00 AM - 10:00 PM</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1884.797235662598!2d72.89143053578704!3d19.125438398822684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8069403a233%3A0x63ac843334aad901!2sL%26T%20Flyover%2C%20Manohar%20Nagar%2C%20Marol%2C%20Andheri%20East%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1675350922739!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- Contact Form-->
+    <div class="contact-form section-p1 section-m1">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We love to hear from you</h2>
+        <input type="text" name="" id="name-txt" placeholder="Your Name">
+        <input type="email" name="" id="email-txt" placeholder="Email">
+        <input type="text" name="" id="subject-txt" placeholder="Subject">
+        <input type="text" name="" id="msg-txt" placeholder="Your Message">
+        <button class="normal">Submit</button>
+    </div>
+    <!-- Newsletter -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newsletter-txt">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>15 Days return policy</h4>
+            <h4>Cash on delivery</h4>
+            <div class="follow">
+                <h4>Follow us: </h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Pay</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© Lokesh Parab - Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

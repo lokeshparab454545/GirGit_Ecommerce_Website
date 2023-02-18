@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6dabbfe48e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NavBar-->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        <div class="cart-details">
+            <div class="cart-title">
+                <h4>Your Cart</h4>
+            </div>
+            <div class="card-content">
+                <div class="cart-box">
+                    <img src="img/products/f2.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-prod-title">
+                            Men's Blue Peace Oversized T-shirt
+                        </div>
+                        <div class="cart-price">
+                            Rs. 599
+                        </div>
+                        <input type="number" value="1" class="cart-quantity" min="0">
+                    </div>
+                    <i class="fa-solid fa-trash cart-remove"></i>
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    <p>Total: </p>
+                </div>
+                <div class="total-price">
+                    <p>Rs. 0</p>
+                </div>
+            </div>
+            <button class="normal btn-buy">Buy Now</button>
+            <i id="close-cart" class="fas fa-times"></i>
+
+        </div>
+    </section>
+
+    <!--About Us Container -->
+
+    <section id="about-cont" class="section-p1">
+        <img src="img/about/a6.jpg" alt="">
+        <div class="about-txt">
+            <h2>Who we are?</h2>
+            <p>
+                GirGit is a lifestyle fashion brand that makes creative, distinctive fashion for the trendy,
+                contemporary Indian. Bewakoof was created on the principle of creating impact through innovation,
+                honesty and thoughtfulness.
+                Our innovation focus extends to our operations as well. We are vertically integrated, manufacture
+                our
+                own products, and cut out the middleman wherever possible. This direct-to-consumer model allows us
+                to
+                create high-quality fashion at affordable prices. A thoughtful brand, we actively attempt to
+                minimize
+                our environmental footprint and maximize our social impact. These efforts are integrated right into
+                our
+                day-to-day operations, from rainwater harvesting to paper packaging to employee benefits. To create
+                an
+                accessible, affordable and thoughtful experience of online shopping in India.
+                GirGit, The place to be when it comes to the coolest in
+                online
+                fashion, offers you fine,
+                high-quality
+                merchandise go ahead and indulge in a bit of online shopping for men and womens fashion.
+            </p>
+        </div>
+    </section>
+
+    <!--About Video-->
+    <section id="about-vid" class="section-p1">
+        <h1>Download our App</h1>
+        <div class="vid">
+            <video autoplay muted loop src="img/about/1.mp4"></video>
+        </div>
+    </section>
+
+    <!-- Feature Section-->
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newsletter-txt">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>15 Days return policy</h4>
+            <h4>Cash on delivery</h4>
+            <div class="follow">
+                <h4>Follow us: </h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Pay</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© Lokesh Parab - Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
